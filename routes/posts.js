@@ -3,8 +3,7 @@ var router = express.Router();
 
 /* GET posts listing */
 router.get('/', function(req, res, next) {
-  res.send('open posts page');
-  // res.render('posts', { title: 'Posts' });
+  res.render('posts', {});
 });
 
 module.exports = router;

@@ -1,11 +1,13 @@
 <%- include('header') -%>
 
-<h1>User List</h1>
+<h1>Users</h1>
 <ul>
   <%
     var list = '';
     for (i = 0; i < users.length; i++) {
-      list += '<li>' + users[i].username + ': ' + users[i].email + '</li>';
+      list += '<li>' + users[i].username + ': ' + users[i].email;
+      list += '   <button method="post" action="/users/delete">X</button>'
+      list += '</li>';
     }
   %>
   <%- list %>

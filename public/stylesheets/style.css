@@ -1,8 +1,46 @@
 body {
-  padding: 50px;
+  padding-top: 80px;
+  padding-left: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: #00B7FF;
+#sidebar {
+  height: 100%;
+  width: 200px;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background-color: #cccccc;
+}
+
+#sidecontent {
+  padding-top: 50px;
+  padding-right: 30px;
+  text-align: right;
+}
+
+#sidecontent a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #11add4;
+}
+
+#sidelogo a {
+  font-size: 40px;
+  color: #000000;
+}
+
+#sidelower a {
+  font-size: 14px;
+  color: #e0840b;
+}
+
+.main {
+  margin-left: 200px;
+}
+
+.posttile {
+  padding: 5px;
+  width: 80%;
+  background-color: #cccccc;
 }
